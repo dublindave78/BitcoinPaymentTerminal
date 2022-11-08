@@ -6,13 +6,13 @@
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   border: solid 0.5px #ffffff;
-  background-color: #f3f8ff;
+  background-color: #07a32c;
 }
 
 .Rectangle-2 {
   width: 520px;
   height: 50px;
-  border: solid 0.5px #f1f1f1;
+  border: solid 0.5px #07a32c;
   background-color: #ffffff;
 
 }
@@ -20,7 +20,7 @@
 .Ellipse-1 {
   width: 13px;
   height: 13px;
-  background-color: #ff2121;
+  background-color: #dbde9b;
   border-radius:100%;
   margin-right: 450px;
   margin-top: 16px;
