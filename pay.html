@@ -26,7 +26,7 @@
 
 <!------ Include the above in your HEAD tag ---------->
 
-<body id="body" ng-init="stdbtc=1;stdusd=0;_btc=10;">
+<body id="body" ng-init="stdbtc=1;stdusd=$btcValue;_btc=$btc_final_total;">
 
 
 
@@ -38,7 +38,7 @@
 <br><div class="send">Send</div><br>
 <div class="BTC"><td id="copy_btc" scope="row" class="h3">{{ (_btc/btc) | number: 7}}</td></div><br><br>
 <div class="address">To address</div><br>
-<div class="to"><p title="Copy Text" id="text" onclick="copyElementText(this.id)">1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</p></div><br>
+<div class="to"><p title="Copy Text" id="text" onclick="copyElementText(this.id)">bc1qyf0pdced80dejk6p35gnlus5tntw5mmunu5l39</p></div><br>
 <p class="delay">(If you want to copy this adress click on it)</p>
 
 <br><div class="time"><p id="time">15:00</p></div><br><br>
